@@ -86,13 +86,13 @@ a{
 
 .form-wrap h1 {
     text-align: center;
-	
-	
-	
-	.form-wrap .form-group {
-    margin-top: 15px;
 }
-
+	
+	
+	
+.form-wrap ,.form-group {
+    margin-top: 15px
+}
 .form-wrap .front-group label {
     display: block;
     color: #3498bd;
@@ -103,4 +103,29 @@ a{
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
+}
+.Caption{
+	text-align: center;
+    color: cyan;
+    font-size: 50px;
+}
+
+.Team{
+    height: 600px;
+    width: 100%;
+    background-image: url("back1.jpg");
+    background-size: cover;
+    
+}
+Table{
+	margin-left: auto;
+	margin-right: auto;
+    border: 5px dashed black;
+    background-color: #7a9cde;
+}
+th,td,tr{
+	border: 2px solid black;
+	border: collapse;
+	padding: 10px;
+	text-align: center;
 }
