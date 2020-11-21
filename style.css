@@ -71,3 +71,36 @@ a{
     font-size: 10px;
     text-align: center;
 }
+
+
+
+
+
+.from-wrap{
+    background: white;
+    padding: 15px, 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #d35400;
+}
+
+.form-wrap h1 {
+    text-align: center;
+	
+	
+	
+	.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+.form-wrap .front-group label {
+    display: block;
+    color: #3498bd;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
